@@ -1,6 +1,7 @@
 #include <stdio.h>
-
+#include <unistd.h>
 int main()
 {
-	printf("###prints inside the c file###\n");
+	pid_t child = fork();
+	printf("%d\n", child);
 }
