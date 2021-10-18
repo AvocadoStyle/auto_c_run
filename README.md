@@ -1,5 +1,12 @@
-###for runprog.sh
-![image](https://user-images.githubusercontent.com/42403145/136687574-2afbb04b-ca07-49a4-9a49-36c0e6c1b00f.png)
+arg1: the c program
+arg2: the exe file (the file you run eventually for example ./run)
+arg3: the times the exe file will run, 1 to (inf)
 
-###with arguments use runprog_ver.sh
-![image](https://user-images.githubusercontent.com/42403145/136691873-ae54d4d2-2638-4bae-ae80-38c5b5f3f000.png)
+```
+terminal
+>> ./runprog.sh program.c run 1
+arg1 = program.c
+arg2 = ./run
+arg3 = 1 to inf
+```
+![image](https://user-images.githubusercontent.com/42403145/137814191-b2c54016-5694-4732-924f-5ae9ce85f8d2.png)
