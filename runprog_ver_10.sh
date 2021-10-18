@@ -1,8 +1,8 @@
 #!/bin/bash
-gcc -Wall $1 -o run
-chmod +x run
-for i in $(seq "$2")
+gcc -Wall -g3 $1 -o $2
+chmod +x $2
+for i in $(seq "$3")
 do
-	chmod +x run
-	./run
+	chmod +x $2
+	./$2
 done
