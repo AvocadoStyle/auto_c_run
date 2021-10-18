@@ -9,4 +9,11 @@ arg1 = program.c
 arg2 = ./run
 arg3 = 1 to inf
 ```
+
+for example it will run the ./run file 10 times:
+```
+./runprog.sh program.c run 10
+```
+
+
 ![image](https://user-images.githubusercontent.com/42403145/137814191-b2c54016-5694-4732-924f-5ae9ce85f8d2.png)
